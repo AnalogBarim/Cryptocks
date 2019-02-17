@@ -17,6 +17,8 @@
 		8E072C2B22191F9D00DA7916 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E072C2A22191F9D00DA7916 /* InterfaceController.swift */; };
 		8E072C2D22191F9D00DA7916 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E072C2C22191F9D00DA7916 /* ExtensionDelegate.swift */; };
 		8E072C2F22191F9D00DA7916 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E072C2E22191F9D00DA7916 /* Assets.xcassets */; };
+		8E072C3F221922C500DA7916 /* Currency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E072C3E221922C500DA7916 /* Currency.swift */; };
+		8E072C412219232400DA7916 /* CoinoneTicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E072C402219232400DA7916 /* CoinoneTicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +78,8 @@
 		8E072C2C22191F9D00DA7916 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
 		8E072C2E22191F9D00DA7916 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E072C3022191F9D00DA7916 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E072C3E221922C500DA7916 /* Currency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Currency.swift; sourceTree = "<group>"; };
+		8E072C402219232400DA7916 /* CoinoneTicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinoneTicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +124,8 @@
 			isa = PBXGroup;
 			children = (
 				8E072C0722191F9A00DA7916 /* AppDelegate.swift */,
+				8E072C3E221922C500DA7916 /* Currency.swift */,
+				8E072C402219232400DA7916 /* CoinoneTicker.swift */,
 				8E072C0E22191F9C00DA7916 /* Assets.xcassets */,
 				8E072C1022191F9C00DA7916 /* LaunchScreen.storyboard */,
 				8E072C1322191F9C00DA7916 /* Info.plist */,
@@ -279,6 +285,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E072C3F221922C500DA7916 /* Currency.swift in Sources */,
+				8E072C412219232400DA7916 /* CoinoneTicker.swift in Sources */,
 				8E072C0822191F9A00DA7916 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
